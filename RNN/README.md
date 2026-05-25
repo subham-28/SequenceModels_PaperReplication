@@ -228,6 +228,7 @@ The model learns to use previous hidden states to predict the next bit.
 Training loss generally decreases over epochs.
 
 Final Average Loss: 0.4842
+
 Accuracy: 87.50%
 
 ---
@@ -338,6 +339,7 @@ g → u → u → u
 Training loss decreases as the network learns the letter structure.
 
 Final Average Loss: 0.3660
+
 Accuracy: 77.21%
 
 ---
@@ -468,6 +470,7 @@ The model learns character-level patterns inside words.
 Training loss decreases over time.
 
 Final Average Loss: 0.7890
+
 Accuracy: 70.41%
 
 ---
