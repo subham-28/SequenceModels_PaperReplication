@@ -132,13 +132,13 @@ Differences from the original paper:
 ```text
 RNN-Paper-Replication/
 │
-├── notebooks/
+├── Notebooks/
 │   ├── 01_sequential_xor.ipynb
 │   ├── 02_letter_sequence.ipynb
 │   ├── 03_word_discovery.ipynb
 │   └── 04_lexical_classes.ipynb
 │
-├── assets/
+├── Images/
 │   ├── exp1_xor_loss.png
 │   ├── exp1_cycle_error.png
 │   ├── exp2_letter_loss.png
