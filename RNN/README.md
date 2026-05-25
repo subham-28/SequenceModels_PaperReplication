@@ -227,7 +227,8 @@ The model learns to use previous hidden states to predict the next bit.
 
 Training loss generally decreases over epochs.
 
-![Experiment 1 Training Loss](assets/exp1_xor_loss.png)
+Final Average Loss: 0.4842
+Accuracy: 87.50%
 
 ---
 
@@ -235,7 +236,7 @@ Training loss generally decreases over epochs.
 
 The original paper shows an up-down error pattern because some points in the XOR sequence are predictable and some are uncertain.
 
-![Experiment 1 Cycle Error](assets/exp1_cycle_error.png)
+![Experiment 1 Cycle Error](Images/exp1_cycle_error.png)
 
 ---
 
@@ -336,7 +337,8 @@ g → u → u → u
 
 Training loss decreases as the network learns the letter structure.
 
-![Experiment 2 Training Loss](assets/exp2_letter_loss.png)
+Final Average Loss: 0.3660
+Accuracy: 77.21%
 
 ---
 
@@ -344,7 +346,7 @@ Training loss decreases as the network learns the letter structure.
 
 This plot corresponds to the paper's error graph for the letter prediction task.
 
-![Experiment 2 RMS Error](assets/exp2_rms_error.png)
+![Experiment 2 RMS Error](Images/exp2_rms_error.png)
 
 ---
 
@@ -357,7 +359,8 @@ The original paper also analyzed error for specific features such as:
 
 In this implementation, these were approximated using manually defined feature vectors.
 
-![Experiment 2 Feature Error](assets/exp2_feature_error.png)
+![Experiment 2 consonantal Feature Error](Images/exp2_consonantal_feature_error.png)
+![Experiment 2 high Feature Error](Images/exp2_high_feature_error.png)
 
 ---
 
@@ -464,7 +467,8 @@ The model learns character-level patterns inside words.
 
 Training loss decreases over time.
 
-![Experiment 3 Training Loss](assets/exp3_char_loss.png)
+Final Average Loss: 0.7890
+Accuracy: 70.41%
 
 ---
 
@@ -472,7 +476,7 @@ Training loss decreases over time.
 
 The paper's important observation is that prediction error tends to be high near the start of a new word and lower inside more predictable parts of words.
 
-![Experiment 3 Letter-in-Word Error](assets/exp3_letter_word_error.png)
+![Experiment 3 Letter-in-Word Error](Images/exp3_letter_word_error.png)
 
 ---
 
@@ -603,7 +607,7 @@ The model learns word-order patterns.
 
 Training loss decreases over epochs.
 
-![Experiment 4 Training Loss](assets/exp4_word_loss.png)
+Final Average Loss: 2.1686
 
 ---
 
@@ -611,7 +615,7 @@ Training loss decreases over epochs.
 
 The PCA plot helps check whether similar words are placed near each other in hidden-state space.
 
-![Experiment 4 PCA Word Representations](assets/exp4_pca_words.png)
+![Experiment 4 PCA Word Representations](Images/exp4_pca_words.png)
 
 Expected grouping:
 
@@ -633,7 +637,7 @@ The paper used hierarchical clustering to analyze hidden representations.
 
 This implementation also creates a dendrogram.
 
-![Experiment 4 Dendrogram](assets/exp4_dendrogram.png)
+![Experiment 4 Dendrogram](Images/exp4_dendrogram.png)
 
 ---
 
