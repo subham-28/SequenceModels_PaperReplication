@@ -293,8 +293,8 @@ Even though `P` is partly correct, it is counted as incorrect because exact matc
 Initial result format:
 
 ```text
-Test Loss: 0.6678
-Exact Match Accuracy: 4.20%
+Test Loss: 0.0385
+Exact Match Accuracy: 93.03%
 ```
 
 Note:
