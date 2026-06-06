@@ -320,11 +320,7 @@ Expected behavior:
 loss should generally decrease over time
 ```
 
-Add your generated plot here:
-
-```markdown
 ![Training Loss](Images/training_loss.png)
-```
 
 ---
 
@@ -339,11 +335,7 @@ forget gate near 1 → keep memory
 forget gate near 0 → forget/reset memory
 ```
 
-Add your generated plot here:
-
-```markdown
 ![Forget Gate Activation](Images/forget_gate_activation.png)
-```
 
 ---
 
@@ -355,11 +347,7 @@ The paper explains that without proper forgetting, cell states can grow too much
 
 With forget gates, the model can learn to reset or reduce memory when needed.
 
-Add your generated plot here:
-
-```markdown
 ![Cell State](Images/cell_state.png)
-```
 
 ---
 
